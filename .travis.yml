@@ -1,2 +1,4 @@
 language: java
+jdk:
+  - openjdk14
 script: mvn test -B
