@@ -73,7 +73,7 @@ public class Party
     {
         int firstAvailableSpot = 2;
 
-        while (this.representatives.containsValue(firstAvailableSpot))
+        while (this.representatives.containsKey(firstAvailableSpot))
         {
             firstAvailableSpot++;
         }
